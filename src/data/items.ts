@@ -14,13 +14,13 @@ export const items: Item[] = [
     value: 28,
   },
   {
-    date: new Date(2023, 5, 16),
+    date: new Date(2023, 2, 16),
     category: "rent",
     title: "Aluguel Apt",
     value: 2300,
   },
   {
-    date: new Date(2023, 5, 1),
+    date: new Date(2023, 6, 1),
     category: "salary",
     title: "Salário ACME",
     value: 4500,

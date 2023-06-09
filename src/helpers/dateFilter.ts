@@ -30,3 +30,23 @@ export const formatDate = (date: Date): string => {
     .toString()
     .padStart(2, "0")}/${year}`;
 };
+
+export const formatCurrentMonth = (currentMonth: string): string => {
+  const [year, month] = currentMonth.split("-");
+  const months = [
+    "Janeiro",
+    "Fevereiro",
+    "Março",
+    "Abril",
+    "Maio",
+    "Junho",
+    "Julho",
+    "Agosto",
+    "Setembro",
+    "Outubro",
+    "Novembro",
+    "Dezembro",
+  ];
+
+  return `${months[parseInt(month) - 1]} ${year}`;
+};
